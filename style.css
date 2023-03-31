@@ -1,0 +1,146 @@
+@import url(./normalize.css);
+@import url(/images/__logo.png);
+@import url(/style.css);
+@import url(/vendor/fonts/Inter-Regular.woff);
+@import url(/vendor/fonts/Inter-Regular.woff2);
+@import url(/vendor/fonts/Inter-SemiBold.woff);
+@import url(/vendor/fonts/Inter-SemiBold.woff2);
+@import url(/vendor/fonts/Inter-Black.woff);
+@import url(/vendor/fonts/Inter-SemiBold.woff2);
+
+body {
+    background-color: #2A2C2F;
+}
+
+.page {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    background-color: #2A2C2F;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+
+.logo {
+    display: flex;
+}
+
+.content {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.journey {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding-top: 91px;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid blue;
+}
+
+.journey__title {
+    font-size: 96px;
+    text-align: center;
+    max-width: 850px;
+    font-weight: 900;
+    height: 200px;
+    margin: 0;
+
+}
+
+.journey__subtitle {
+    text-align: center;
+    font-size: 30px;
+    max-width: 720px;
+    min-height: 72px;
+    font-weight: 400;
+    margin: 32px 0 0;
+    line-height: 1.5;
+
+}
+
+.journey__image {
+    margin-top: 64px;
+    max-width: 984px;
+    min-height: 615px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1017px;
+    padding-top: 92px;
+    border: 1px solid blue;
+}
+
+.places__title {
+    min-height: 116px;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.places_quote {
+    max-width: 722px;
+    min-height: 136px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 40px 0 0;
+
+}
+
+.places__author {
+    max-width: 720px;
+    min-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    text-align: right;
+    line-height: 34px;
+
+}
+
+.places__text {
+    max-width: 720px;
+    min-height: 182px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.63;
+    padding-top: 32px;
+    margin: 0;
+}
+
+.gallery_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 16px;
+    margin: 92px 0 92px 0;
+    border: 1px solid blue;
+}
+
+.gallery_grid-photo {
+    width: 100%;
+}
