@@ -47,7 +47,7 @@ body {
     padding-top: 91px;
     align-items: center;
     flex-direction: column;
-    border: 1px solid blue;
+
 }
 
 .journey__title {
@@ -86,7 +86,7 @@ body {
     margin: auto;
     max-width: 1017px;
     padding-top: 92px;
-    border: 1px solid blue;
+
 }
 
 .places__title {
@@ -138,9 +138,286 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 16px;
     margin: 92px 0 92px 0;
-    border: 1px solid blue;
+
 }
 
 .gallery_grid-photo {
     width: 100%;
+}
+
+.stories {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+
+}
+
+.storie {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    max-height: 836px;
+
+
+
+}
+
+.storie__place_position {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.storie__place {
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+
+}
+
+.storie__title {
+    top: 0;
+    display: flex;
+    max-width: 460px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0 0 48px;
+}
+
+.storie__title_position {
+    position: absolute;
+    max-width: 484px;
+
+}
+
+.storie__image {
+    width: 460px;
+    height: 460px;
+    margin-bottom: 48px;
+}
+
+.storie__nft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 355px;
+    height: 48px;
+    text-decoration: none;
+    background-color: #0278FE;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 80px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.storie__nft:hover {
+    background-color: #0063D2;
+
+}
+
+.storie__link {
+    max-width: 484px;
+    margin: 107px 0 0px;
+
+}
+
+.storie__link_position {
+    max-width: 484px;
+    margin: 0;
+
+}
+
+.artist_positions {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.artist_positions_gales {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+
+}
+
+.artist_positions_berea {
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+}
+
+.storie__artist {
+    width: 58px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 8px;
+    color: #AAAAAA;
+}
+
+
+.storie__name {
+    width: 456px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.storie__texts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin-top: 48px;
+
+
+}
+
+.storie__texts_position {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    margin-top: 48px;
+}
+
+
+.storie__text {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.50;
+    color: #FFFFFF;
+
+}
+
+.storie__text_position {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+
+}
+
+.visit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.visit__image {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    background-image: url(./images/backgroundfinal.png);
+    background-color: #2A2C2F;
+    background-position: center;
+    background-size: cover;
+    max-width: 1184px;
+    min-height: 740px;
+    opacity: 0.8;
+    transition: opacity 300ms ease-in-out;
+}
+
+.visit__content {
+    text-align: center;
+    z-index: 1;
+}
+
+.visit__image:hover {
+    opacity: 0.3;
+
+}
+
+.visit__title {
+    color: #FFFDFD;
+    width: 656px;
+    height: 76px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 243px 0 32px;
+
+}
+
+.visit__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFDFD;
+    font-style: normal;
+    max-width: 280px;
+    height: 66px;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto 32px;
+}
+
+
+
+.storie__ticket {
+    top: 449px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 151px;
+    max-height: 22px;
+    text-decoration: none;
+    background-color: #0278FE;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    align-self: center;
+    padding: 13px 20px;
+    z-index: 1;
+
+
+}
+
+.storie__ticket:hover {
+    background: #0063D2;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    margin: 92px 0 24px;
+    max-width: 180px;
+    height: 16px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
