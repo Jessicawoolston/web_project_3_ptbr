@@ -1,0 +1,7 @@
+.storie {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    max-height: 836px;
+}

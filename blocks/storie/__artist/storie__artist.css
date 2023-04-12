@@ -1,0 +1,13 @@
+.storie__artist {
+    width: 58px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 8px;
+    color: #AAAAAA;
+}

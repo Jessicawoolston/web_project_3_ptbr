@@ -1,0 +1,10 @@
+.journey__subtitle {
+    text-align: center;
+    font-size: 30px;
+    max-width: 720px;
+    min-height: 72px;
+    font-weight: 400;
+    margin: 32px 0 0;
+    line-height: 1.5;
+
+}

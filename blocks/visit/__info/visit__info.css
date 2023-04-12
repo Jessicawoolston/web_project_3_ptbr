@@ -1,0 +1,12 @@
+.visit__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFDFD;
+    font-style: normal;
+    max-width: 280px;
+    height: 66px;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto 32px;
+}

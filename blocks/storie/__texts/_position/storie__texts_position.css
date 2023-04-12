@@ -1,0 +1,6 @@
+.storie__texts_position {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    margin-top: 48px;
+}

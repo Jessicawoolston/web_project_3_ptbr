@@ -1,0 +1,16 @@
+.visit__button {
+    margin: auto;
+    display: flex;
+    width: 151px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 20px;
+    gap: 10px;
+
+}
