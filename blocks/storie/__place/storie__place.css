@@ -1,5 +1,22 @@
 .storie__place {
     display: flex;
     flex-direction: column;
-    max-width: 460px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .storie__place {
+        display: flex;
+        flex-direction: column;
+        max-width: 355px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .storie__place {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        gap: 30px;
+    }
 }

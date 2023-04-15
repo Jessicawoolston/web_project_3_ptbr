@@ -4,3 +4,17 @@
     row-gap: 27px;
     margin-top: 48px;
 }
+
+@media screen and (max-width: 768px) {
+    .storie__texts_position {
+        margin-top: 46px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .storie__texts_position {
+        margin-top: 16px;
+    }
+
+}

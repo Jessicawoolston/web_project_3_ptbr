@@ -21,3 +21,10 @@
     background-color: #0063D2;
 
 }
+
+@media screen and (max-width: 500px) {
+    .button {
+        display: none;
+    }
+
+}

@@ -3,6 +3,10 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+}
 
-
+@media screen and (max-width: 320px) {
+    .storie__position-gales {
+        display: none;
+    }
 }

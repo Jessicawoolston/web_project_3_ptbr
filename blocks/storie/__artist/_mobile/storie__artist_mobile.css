@@ -1,0 +1,26 @@
+.storie__artist_mobile {
+    width: 58px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 8px;
+    color: #AAAAAA;
+}
+
+
+@media screen and (max-width: 768px) {
+    .storie__artist_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .storie__artist_mobile {
+        display: none;
+    }
+}

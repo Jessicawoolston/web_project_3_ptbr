@@ -44,10 +44,12 @@
 @import url(/blocks/storie/__link/_positions_berea/storie__link_positions_berea.css);
 @import url(/blocks/storie/__link/_positions_gales/storie__link_positions_gales.css);
 @import url(/blocks/storie/__artist/storie__artist.css);
+@import url(/blocks/storie/__mobile/storie__mobile.css);
 @import url(/blocks/storie/__name/storie__name.css);
 @import url(/blocks/storie/__texts/storie__texts.css);
 @import url(/blocks/storie/__texts/_position/storie__texts_position.css);
 @import url(/blocks/storie/__text/storie__text.css);
+@import url(/blocks/storie/__button/storie__button.css);
 @import url(/blocks/storie/__text/_position/storie__text_position.css);
 @import url(/blocks/storie/__ticket/storie__ticket.css);
 @import url(/blocks/storie/__position/storie__position.css);

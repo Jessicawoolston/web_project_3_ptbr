@@ -1,0 +1,12 @@
+.storie__mobile {
+    display: flex;
+    max-height: 89px;
+    flex-direction: column;
+    margin: 0 16px 0 16px;
+}
+
+@media screen and (min-width: 328px) {
+    .storie__mobile {
+        display: none;
+    }
+}

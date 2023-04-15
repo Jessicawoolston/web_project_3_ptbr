@@ -3,3 +3,9 @@
     flex-direction: column;
 
 }
+
+@media screen and (max-width: 328px) {
+    .storie__position {
+        display: none;
+    }
+}

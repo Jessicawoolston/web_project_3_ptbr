@@ -3,5 +3,30 @@
     display: flex;
     justify-content: center;
     column-gap: 40px;
-    max-height: 836px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .storie {
+        max-width: 768px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        column-gap: 13px;
+        margin-bottom: 31px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .storie {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 320px;
+        position: relative;
+        display: flex;
+
+
+    }
+
 }

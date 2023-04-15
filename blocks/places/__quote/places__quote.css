@@ -8,3 +8,12 @@
     margin: 40px 0 0;
 
 }
+
+@media screen and (max-width: 320px) {
+    .places__quote {
+        max-width: 288px;
+        margin: 9px 0 10px;
+
+    }
+
+}

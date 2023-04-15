@@ -1,0 +1,44 @@
+.storie__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 288px;
+    height: 48px;
+    text-decoration: none;
+    background-color: #0278FE;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    margin: 22px 0 37px 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .storie__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 288px;
+        height: 48px;
+        text-decoration: none;
+        background-color: #0278FE;
+        color: #FFFFFF;
+        border-radius: 4px;
+        border: none;
+        margin: 22px auto;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .storie__button {
+        display: none;
+    }
+
+}

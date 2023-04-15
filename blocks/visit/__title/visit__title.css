@@ -1,7 +1,7 @@
 .visit__title {
     color: #FFFDFD;
-    width: 656px;
-    height: 76px;
+    max-width: 656px;
+    max-height: 76px;
     text-align: center;
     font-style: normal;
     font-weight: 900;
@@ -9,4 +9,14 @@
     line-height: 76px;
     margin: 0 32px;
 
+}
+
+@media screen and (max-width: 452px) {
+    .visit__title {
+        max-width: 288px;
+        max-height: 35px;
+        font-size: 32px;
+        line-height: 35px;
+
+    }
 }

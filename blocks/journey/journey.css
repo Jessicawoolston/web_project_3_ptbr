@@ -5,5 +5,11 @@
     padding-top: 91px;
     align-items: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+    .journey {
+        padding-top: 50px;
+    }
 
 }

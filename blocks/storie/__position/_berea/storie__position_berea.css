@@ -3,3 +3,17 @@
     flex-direction: column;
     margin-top: 31px;
 }
+
+@media screen and (max-width: 768px) {
+    .storie__position_berea {
+
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .storie__position_berea {
+        display: none;
+    }
+}

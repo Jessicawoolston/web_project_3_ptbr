@@ -3,3 +3,17 @@
     margin: 107px 0 0px;
 
 }
+
+@media screen and (max-width: 768px) {
+    .storie__link {
+        max-width: 365px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .storie__link {
+        max-width: 288px;
+        margin-top: 0;
+    }
+}

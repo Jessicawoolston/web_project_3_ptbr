@@ -1,6 +1,17 @@
 .stories {
-    flex-direction: column;
-    width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+    .stories {
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+
+    }
 
 }

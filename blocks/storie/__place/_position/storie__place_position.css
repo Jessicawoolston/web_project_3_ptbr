@@ -2,4 +2,23 @@
     display: flex;
     flex-direction: column;
     margin-top: 200px;
+    max-width: 460px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .storie__place_position {
+        display: flex;
+        flex-direction: column;
+        margin-top: 115px;
+        max-width: 355px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .storie__place_position {
+        margin-top: 75px;
+    }
+
 }

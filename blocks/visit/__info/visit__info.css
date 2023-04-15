@@ -6,7 +6,16 @@
     font-style: normal;
     max-width: 280px;
     height: 66px;
-    align-self: center;
     text-align: center;
     margin: 0 auto 32px;
+}
+
+@media screen and (max-width: 452px) {
+    .visit__info {
+        height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 16px 0 16px;
+    }
+
 }
