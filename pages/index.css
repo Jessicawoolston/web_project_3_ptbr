@@ -1,7 +1,7 @@
-@import url(../vendor/normalize.css);
-@import url(../blocks/root/root.css);
+@import url(/vendor/normalize.css);
+@import url(/blocks/root/root.css);
 @import url(/images/__logo.png);
-@import url(../vendor/fonts/fonts.css);
+@import url(/vendor/fonts/fonts.css);
 @import url(/vendor/fonts/Inter-Black.woff);
 @import url(/vendor/fonts/Inter-Black.woff2);
 @import url(/vendor/fonts/Inter-Regular.woff);
