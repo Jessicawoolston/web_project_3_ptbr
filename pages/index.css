@@ -1,13 +1,13 @@
-@import url(/vendor/normalize.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/root/root.css);
 @import url(/images/__logo.png);
-@import url(/vendor/fonts/);
+@import url(../vendor/fonts/fonts.css);
 @import url(/vendor/fonts/Inter-Black.woff);
 @import url(/vendor/fonts/Inter-Black.woff2);
 @import url(/vendor/fonts/Inter-Regular.woff);
 @import url(/vendor/fonts/Inter-Regular.woff2);
 @import url(/vendor/fonts/Inter-SemiBold.woff);
 @import url(/vendor/fonts/Inter-SemiBold.woff2);
-@import url(/blocks/root/root.css);
 /*------------------------------------------------Page----------------------------------------------*/
 @import url(/blocks/page/page.css);
 /*------------------------------------------------Header-------------------------------------------*/
