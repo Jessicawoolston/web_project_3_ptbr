@@ -1,8 +1,5 @@
 .storie__place_position {
-    display: flex;
-    flex-direction: column;
-    margin-top: 200px;
-    max-width: 460px;
+    max-width: 484px;
 }
 
 

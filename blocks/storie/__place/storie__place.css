@@ -1,7 +1,6 @@
 .storie__place {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {

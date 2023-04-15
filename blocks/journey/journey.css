@@ -1,7 +1,6 @@
 .journey {
     display: flex;
     width: 100%;
-    margin: 0 auto;
     padding-top: 91px;
     align-items: center;
     flex-direction: column;
