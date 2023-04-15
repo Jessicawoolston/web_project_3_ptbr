@@ -41,8 +41,8 @@
 @import url(/blocks/storie/__place/_position/storie__place_position.css);
 @import url(/blocks/storie/__image/storie__image.css);
 @import url(/blocks/storie/__link/storie__link.css);
-@import url(/blocks/storie/__link/_positions_berea/storie__link_positions_berea.css);
-@import url(/blocks/storie/__link/_positions_gales/storie__link_positions_gales.css);
+@import url(/blocks/storie/__link/_positions/storie__link_positions_berea.css);
+@import url(/blocks/storie/__link/_positions/storie__link_positions_gales.css);
 @import url(/blocks/storie/__artist/storie__artist.css);
 @import url(/blocks/storie/__mobile/storie__mobile.css);
 @import url(/blocks/storie/__name/storie__name.css);
