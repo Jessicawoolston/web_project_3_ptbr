@@ -10,7 +10,6 @@
     .storie {
         max-width: 768px;
         position: relative;
-        display: flex;
         justify-content: center;
         column-gap: 13px;
         margin-bottom: 31px;
@@ -20,13 +19,9 @@
 
 @media screen and (max-width: 500px) {
     .storie {
-        display: flex;
         flex-wrap: wrap;
         max-width: 320px;
         position: relative;
-
-
-
     }
 
 }
