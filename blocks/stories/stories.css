@@ -5,10 +5,7 @@
 
 @media screen and (max-width: 768px) {
     .stories {
-        display: flex;
-        flex-direction: column;
         max-width: 768px;
-
     }
 
 }
