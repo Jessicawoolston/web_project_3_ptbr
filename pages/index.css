@@ -46,8 +46,8 @@
 @import url(../blocks/storie/__text/_position/storie__text_position.css);
 @import url(../blocks/storie/__ticket/storie__ticket.css);
 @import url(../blocks/storie/__position/storie__position.css);
-@import url(../blocks/storie/__position/_gales/storie__position_gales.css);
-@import url(../blocks/storie/__position/_berea/storie__position_berea.css);
+@import url(../blocks/storie/__position/_city/storie__position_city_gales.css);
+@import url(../blocks/storie/__position/_city/storie__position_city_berea.css);
 /*------------------------------------------------visit-------------------------------------------*/
 @import url(../blocks/visit/visit.css);
 @import url(../blocks/visit/__image/visit__image.css);

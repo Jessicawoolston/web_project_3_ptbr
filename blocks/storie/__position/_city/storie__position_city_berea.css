@@ -1,17 +1,16 @@
-.storie__position_berea {
+.storie__position_city_berea {
     margin-top: 31px;
 }
 
 @media screen and (max-width: 768px) {
-    .storie__position_berea {
-
+    .storie__position_city_berea {
         margin-top: 0px;
     }
 
 }
 
 @media screen and (max-width: 320px) {
-    .storie__position_berea {
+    .storie__position_city_berea {
         display: none;
     }
 }

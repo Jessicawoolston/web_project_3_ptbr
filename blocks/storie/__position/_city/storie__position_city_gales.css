@@ -1,4 +1,4 @@
-.storie__position-gales {
+.storie__position_city_gales {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .storie__position-gales {
+    .storie__position_city_gales {
         display: none;
     }
 }
